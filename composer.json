@@ -64,5 +64,9 @@
         }
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.1",
+        "fzaninotto/faker": "^1.8",
+        "symfony/debug-pack": "^1.0",
+        "symfony/var-dumper": "4.2.*"
     }
 }

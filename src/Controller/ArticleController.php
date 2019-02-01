@@ -2,7 +2,6 @@
 	namespace App\Controller;
 
 	use App\Entity\Article;
-
 	use Symfony\Component\HttpFoundation\Response;
 	use Symfony\Component\HttpFoundation\Request;
 	use Symfony\Component\Routing\Annotation\Route;
@@ -118,6 +117,7 @@
 			$response = new Response();
 			$response->send();
 		}
+
 
 		// /**
 		//  * @Route("/article/save")
